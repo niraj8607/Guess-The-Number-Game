@@ -1,0 +1,80 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+input[type="number"] {
+  width: 70%;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#checkBtn {
+  background-color: #28a745;
+  color: white;
+}
+
+#checkBtn:hover {
+  background-color: #218838;
+}
+
+#resetBtn {
+  background-color: #dc3545;
+  color: white;
+}
+
+#resetBtn:hover {
+  background-color: #c82333;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  min-height: 30px;
+}
+
+#attempts, #highScore {
+  margin-top: 10px;
+  font-size: 1rem;
+}
